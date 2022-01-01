@@ -53,7 +53,7 @@ function stretenow(el){
 //  end article
 
 //  start cuoente time
- let data = new Date("Dec 31 2021 23:59:59").getTime();
+ let data = new Date("january 31 2022 19:23:23").getTime();
 
   setInterval(()=>{
   let getdada = new Date().getTime();
