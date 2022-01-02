@@ -2,7 +2,7 @@
 let icon = document.querySelector(".iconse");
 let list = document.querySelector(".list");
 let img =document.querySelector(".imge");
-
+// random starte
 let addimg = [
   "img/body7.jpg",
   "img/body6.jpg",
@@ -13,6 +13,8 @@ setInterval(()=>{
   let random = Math.floor(Math.random() * addimg.length);
   img.src = addimg[random];
 },2000);
+
+// end random img
 
 // /body7.jpg
 icon.addEventListener("click",function(){
