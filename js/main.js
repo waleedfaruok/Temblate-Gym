@@ -1,7 +1,20 @@
 // starte list
 let icon = document.querySelector(".iconse");
 let list = document.querySelector(".list");
+let img =document.querySelector(".imge");
 
+let addimg = [
+  "img/body7.jpg",
+  "img/body6.jpg",
+  "img/body.jpg"
+];
+
+setInterval(()=>{
+  let random = Math.floor(Math.random() * addimg.length);
+  img.src = addimg[random];
+},2000);
+
+// /body7.jpg
 icon.addEventListener("click",function(){
   if(list.style.display == "none"){
     list.style.display = "block";
