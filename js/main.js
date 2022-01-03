@@ -33,7 +33,7 @@ let falsee = false;
 window.onscroll = function(){
     if(window.scrollY >= 700){
      if(!falsee){
-        cont1.forEach((col)=> stretenow(col));
+     cont1.forEach((col)=> stretenow(col));
      }
      falsee = true;
     }
